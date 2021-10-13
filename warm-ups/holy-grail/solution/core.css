@@ -1,0 +1,50 @@
+* {
+    box-sizing:border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body > * {
+    border:1px solid #000;
+}
+
+body > header, body > footer {
+    background:#444;
+    color: #eee;
+    height: 70px;
+    line-height:70px;
+    text-align:center;
+}
+
+main {
+    background: #fafafa;
+}
+
+main > .content {
+    background: #000;
+}
+
+main > aside {
+    background: #9C9000;
+}
+
+main > nav {
+    background: #ff0000;
+}
+
+.deck {
+    background: #0FA0CE;
+}
+
+/* 000000000000000 */
+.deck:first-child {
+    border-bottom:1px solid black;
+}
+.centeredWords {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

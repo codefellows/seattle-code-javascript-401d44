@@ -1,0 +1,59 @@
+main {
+    display:flex;
+    flex-direction:column;
+}
+main > nav {
+    order: 2;
+}
+main > .content {
+    order: 1;
+}
+main > aside {
+    order: 3;
+}
+
+@media (min-width: 960px) {
+
+    body {
+        display:flex;
+        flex-direction:column;
+    }
+
+    main {
+        display:flex;
+        flex:1;
+        flex-direction:row;
+    }
+
+    main > aside {
+        order: 3;
+        width: 250px;
+    }
+
+    main > nav {
+        order: 2;
+        width: 250px;
+    }
+
+    main > .content {
+        display:flex;
+        flex-direction:column;
+        flex: 1;
+        order: 2;
+    }
+
+    .deck {
+        display:flex;
+        flex-direction:column;
+        flex-wrap:wrap;
+        flex:1;
+        justify-content: space-between;
+    }
+
+    .card {
+        display:flex;
+        flex-direction:column;
+        flex:1;
+    }
+
+}
