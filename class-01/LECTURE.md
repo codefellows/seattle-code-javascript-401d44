@@ -13,7 +13,7 @@ Our classroom management portal
 
 ### Assignments
 
-**Everyday**
+**Everyday (Monday through Thursday)**
 
 * Reading - Due by midnight the day it's due (I recommend completing before the lecture on he day it's assigned).
 * Lab - Due by midnight (Submit something before the next class starts)
@@ -66,3 +66,14 @@ This is where all the content will be published. To receive tha content you will
       * We are concerned heavily with requests from other machines.
 * Jest / test runners
 * Node Module pattern.
+
+### Express Server Basics
+
+How to think about systems that fulfill requests, and about diagramming "behaviors".
+
+* We want to fulfill HTTP requests.
+* Our server needs to response appropriately.
+
+#### Development
+
+#### Deployment
