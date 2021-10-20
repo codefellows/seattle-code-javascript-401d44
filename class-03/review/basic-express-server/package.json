@@ -1,0 +1,26 @@
+{
+  "name": "basic-express-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevAOC/basic-express-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevAOC/basic-express-server/issues"
+  },
+  "homepage": "https://github.com/DevAOC/basic-express-server#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jest": "^27.3.1",
+    "supertest": "^6.1.6"
+  }
+}
