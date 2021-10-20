@@ -36,3 +36,10 @@ How do we tell JS to perfrom action on our Tabular data?
   * Works very similarly to Mongoose, at the end of the day we are still Creating / Reading / Updating / Deleting.
 
 ## RESTful Web Service
+
+## Lab Prep:
+
+Deploying to Heroku: create an add-on from the Heroku dashboard `heroku-postgres`
+
+  * Configure a cloud POSTGRES db, and include an environment variable.
+  * `DATABASE_URL` should alays point to a running POSTGRES deployment.
