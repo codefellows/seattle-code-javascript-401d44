@@ -19,13 +19,14 @@
   "license": "ISC",
   "dependencies": {
     "base-64": "^1.0.0",
-    "bcrypt": "^5.0.0",
+    "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
     "express": "^4.17.1",
     "jest": "^26.6.3",
-    "pg": "^8.6.0",
-    "sequelize": "^6.6.2",
+    "nodemon": "^2.0.14",
+    "pg": "^8.7.1",
+    "sequelize": "^6.8.0",
     "sequelize-cli": "^6.2.0",
     "sqlite3": "^5.0.2"
   }
