@@ -1,0 +1,28 @@
+{
+  "name": "api-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "init:config": "sequelize init:config",
+    "db:create": "sequelize db:create",
+    "lint": "eslint **/*.js",
+    "test": "jest --coverage",
+    "test-watch": "jest --watchAll --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^7.14.0",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "method-override": "^3.0.0",
+    "pg": "^8.6.0",
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0",
+    "sqlite3": "^5.0.2",
+    "supertest": "^6.0.1"
+  }
+}
