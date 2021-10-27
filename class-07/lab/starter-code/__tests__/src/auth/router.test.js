@@ -10,8 +10,8 @@ const mockRequest = supertest(server);
 
 let users = {
   admin: { username: 'admin', password: 'password' },
-  // editor: { username: 'editor', password: 'password' },
-  // user: { username: 'user', password: 'password' },
+  editor: { username: 'editor', password: 'password' },
+  user: { username: 'user', password: 'password' },
 };
 
 beforeAll(async (done) => {
