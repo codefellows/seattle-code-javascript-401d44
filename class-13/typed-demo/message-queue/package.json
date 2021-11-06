@@ -1,0 +1,18 @@
+{
+  "name": "message-queue",
+  "version": "1.0.0",
+  "description": "Implements a `Queue` to garantee messages to clients subscribed to specific events.",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --coverage --verbose",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.3.1",
+    "socket.io": "^4.3.1",
+    "socket.io-client": "^4.3.2"
+  }
+}
