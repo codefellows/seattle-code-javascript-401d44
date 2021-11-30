@@ -50,8 +50,8 @@ The "type" must match a handler in the reducer function...
 
 ```json
 {
-  type: 'ADD_CHARACTER'
-  payload: { name: "Cookie Monster", color: "blue", age: 57 }
+  "type": "ADD_CHARACTER",
+  "payload": { "name": "Cookie Monster", "color": "blue", "age": 57 }
 }
 ```
 
