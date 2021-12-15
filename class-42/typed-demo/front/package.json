@@ -1,0 +1,22 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts:init": "tsc --init",
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node build/index.js",
+    "preserve": "npm run build",
+    "serve": "live-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "typescript": "^4.5.4"
+  }
+}
